@@ -22,7 +22,6 @@ int process_game(FILE *fptr) {
 	int got_digit = 0, curr_digit = 0;
 	int digit = 0;
 	int index = 0;
-	int i;
 
 	while ((c = getc(fptr)) != '\n') {
 		if (c == ' ') continue;
